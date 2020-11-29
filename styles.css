@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+:root {
+  --primary-color: #7c3aed;
+  --dark-grey: #6b7280;
+  --light-grey: #d1d5db;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+body {
+  font-family: "Lora", serif;
+  margin: 0px;
+}
+
+/** Containers **/
+.container {
+  padding: 0rem 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** links **/
+.links {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+/** lists **/
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/**Navigation */
+.navigation {
+  background-color: #7c3aed;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .links {
+  color: white;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .active {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/** hero */
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  color: var(--dark-grey);
+  text-align: center;
+}
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+  padding: 1rem;
+}
+.section {
+  text-align: justify;
+}
+.ow {
+  background-color: var(--light-grey);
+  border-radius: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 1rem;
+}
+.footer .links {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+span.heading-inverted {
+  color: var(--primary-color);
+  font-weight: bold;
+}
